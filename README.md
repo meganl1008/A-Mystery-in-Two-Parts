@@ -1,16 +1,16 @@
-SQL Challenge
+## SQL Challenge
 
 Objective: to demonstrate data modeling, data engineering, and data analysis skills.
 [technologies utilized: PostgreSQL, Pandas, Matplotlib]
 
-Step 1: Data Modeling
+<b> Step 1: Data Modeling </b>
 - Inspect 6 different CSVs and sketch out an Entity Relationship Diagram (ERD) of the tables
 
-Step 2: Data Engineering
+<b> Step 2: Data Engineering </b>
 - Create a table schema for each of the six CSV files
 - Import each CSV file into the corresponsing SQL table
 
-Step 3: Data Analysis
+<b> Step 3: Data Analysis </b>
 
 Preformed the following queries:
 - List the following details of each employee: employee number, last name, first name, gender, and salary
@@ -22,7 +22,7 @@ Preformed the following queries:
 - List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name
 - In descending order, list the frequency count of employee last names, i.e., how many employees share each last name
 
-Step 4: Generate Data Visualizations (used Python)
+<b> Step 4: Generate Data Visualizations (used Python) </b>
 - Import the SQL database into Pandas 
 - Created data visualizations to analyze salary ranges against employee attributes
 
