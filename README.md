@@ -18,7 +18,7 @@ Topics covered in this project:
 
 ## Process 
 Step 1: Create a table schema for each of the six CSV files. Import each CSV file into the corresponding SQL table  <br />
-Step 2:  <br />
+Step 2: Perform the following queries: <br />
 - List the following details of each employee: employee number, last name, first name, gender, and salary
 - List employees who were hired in 1986
 - List the manager of each department with the following information: department number, department name, the manager’s employee number, last name, first name, and start and end employment dates
