@@ -75,7 +75,15 @@ CREATE TABLE salaries (
 );
 ```
 ### Step 3: Data Analysis
-1. List the following details of each employee: employee number, last name, first name, gender, and salary.
+1. List the following details of each employee: employee number, last name, first name, gender, and salary
+``` sql SELECT emp.emp_no AS "employee number", emp.last_name AS "last name", 
+emp.first_name as "first name", emp.gender, sal.salary AS "salary"
+FROM employees as emp
+JOIN salaries as sal
+ON emp.emp_no = sal.emp_no
+ORDER BY emp.emp_no;
+```
+<br />
 2. List employees who were hired in 1986
 3. List the manager of each department with the following information: department number, department name, the manager’s employee number, last name, first name, and start and end employment dates
 4. List the department of each employee with the following information: employee number, last name, first name, and department name
