@@ -149,6 +149,7 @@ ORDER BY COUNT(last_name) DESC;
 ### Step 4: Visualize
 1. Import SQL database into Pandas
 2. Create a histogram to visualize the most common salary ranges for employees
+<img src = "results/salary_breakdown.png" width = "50%">
 3. Create a bar chart of average salary by title
 <img src = "results/salary_title.png" width = "50%">
 
