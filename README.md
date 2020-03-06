@@ -153,3 +153,9 @@ ORDER BY COUNT(last_name) DESC;
 3. Create a bar chart of average salary by title
 <img src = "results/salary_title.png" width = "50%">
 
+## Tools
+- PostgreSQL
+- SQL Alchemy
+- Pandas
+- NumPy
+- Matplotlib
