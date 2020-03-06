@@ -1,4 +1,4 @@
-# SQL Challenge
+# Employee Database: A Mystery in Two Parts 
 
 I will be conducting a research project on employees of ABC corporation from the 1980s and 1990s. All that remains in the database are six CSV files. 
 
